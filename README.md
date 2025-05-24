@@ -23,10 +23,10 @@ yarn add @sigiljs-community/openapi-plugin
 
 ## Usage
 
-Import and register the plugin
+**Import and register the plugin**
 
 ```typescript
-import Sigil from "@sigiljs/sigil"
+import { Sigil } from "@sigiljs/sigil"
 import { OpenApiPlugin } from "@sigiljs-community/openapi-plugin"
 
 const app = new Sigil()
@@ -51,7 +51,7 @@ app.addPlugin(OpenApiPlugin, {
 })
 ```
 
-Define your routes and schemas
+**Define your routes and schemas**
 
 ```typescript
 // Example route with validation
@@ -64,7 +64,7 @@ app.route("/users")
   .get((req, res) => res.response({ users: [] }))
 ```
 
-Serve and view the spec
+**Serve and view the spec**
 
 Start your server and navigate to `http://localhost:3000/docs/openapi.json`
 
