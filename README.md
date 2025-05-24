@@ -83,7 +83,7 @@ You can copy and paste the MIT license summary from below.
 ```text
 MIT License
 
-Copyright (c) 2022-2025 Kurai Foundation
+Copyright (c) 2022 Kurai Foundation
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
