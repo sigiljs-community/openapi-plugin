@@ -1,7 +1,7 @@
 {
   "name": "@sigiljs-community/openapi-plugin",
   "version": "0.0.0",
-  "description": "Automatically derives an OpenAPI JSON spec from SigilJS framework and serves it at a configurable endpoint.",
+  "description": "Plugin for SigilJS framework, that automatically derives an OpenAPI JSON spec from your routes and serves it at a configurable endpoint",
   "main": "dist/seal.js",
   "typings": "dist/index.d.ts",
   "scripts": {
