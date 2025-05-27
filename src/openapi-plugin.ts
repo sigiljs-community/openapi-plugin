@@ -9,8 +9,8 @@ import { nonNullable, sanitizePath } from "@sigiljs/sigil/utils"
 import { ExportedRouteDetails } from "./types"
 
 export interface OpenApiPluginConfig {
-  info?: OpenApiTransformerInfoOptions
-  transform?: OpenApiTransformerTransformOptions
+  info?: Partial<OpenApiTransformerInfoOptions>
+  transform?: Partial<OpenApiTransformerTransformOptions>
   path?: string | false
 }
 
