@@ -52,6 +52,6 @@
   "homepage": "https://github.com/sigiljs-community/openapi-plugin#readme",
   "dependencies": {
     "@sigiljs/openapi-transformer": "^1.0.4",
-    "@sigiljs/sigil": "^0.2.2"
+    "@sigiljs/sigil": "^0.2.3"
   }
 }
