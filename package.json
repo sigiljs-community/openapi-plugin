@@ -50,8 +50,8 @@
     "url": "https://github.com/sigiljs-community/openapi-plugin/issues"
   },
   "homepage": "https://github.com/sigiljs-community/openapi-plugin#readme",
-  "dependencies": {
-    "@sigiljs/openapi-transformer": "^1.0.4",
-    "@sigiljs/sigil": "^0.2.3"
+  "peerDependencies": {
+    "@sigiljs/openapi-transformer": "^1.0.6",
+    "@sigiljs/sigil": "^0.3.1"
   }
 }
